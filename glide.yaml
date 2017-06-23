@@ -1,0 +1,6 @@
+package: .
+import:
+- package: github.com/go-iconv/iconv
+  version: v1.1.1
+- package: log_system
+- package: parsing_config
