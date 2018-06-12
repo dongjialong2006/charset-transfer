@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configure>
+	<log>
+		<name>./lm.log</name>
+		<level>5</level>
+	</log>
+	<local>
+		<ip>127.0.0.1</ip>
+		<port>19001</port>
+		<protocol>tcp</protocol>
+	</local>
+	<remote>
+		<ip>127.0.0.1</ip>
+		<port>19002</port>
+		<protocol>tcp</protocol>
+		<charset>gbk</charset>
+		<key_words_filter>no response</key_words_filter>
+	</remote>
+	<servers>
+		<server>10.1.198.203,utf8</server>
+	</servers>
+</configure>

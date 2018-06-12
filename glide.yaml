@@ -1,4 +1,20 @@
 package: .
 import:
+- package: golang.org/x/crypto
+  subpackages:
+  - ssh
+- package: golang.org/x/sys
+  subpackages:
+  - unix
 - package: github.com/go-iconv/iconv
-  version: v1.1.1
+  version: ~1.1.1
+- package: github.com/lestrrat/go-file-rotatelogs
+- package: github.com/rifflock/lfshook
+  version: ~2.3.0
+- package: github.com/sirupsen/logrus
+  version: ~1.0.5
+- package: github.com/x-cray/logrus-prefixed-formatter
+  version: ~0.5.2
+- package: github.com/namsral/flag
+  version: ~1.7.4-pre
+
