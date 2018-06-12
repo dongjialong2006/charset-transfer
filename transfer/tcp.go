@@ -1,9 +1,9 @@
 package transfer
 
 import (
-	"charset-transfer-tool/config"
-	"charset-transfer-tool/log"
-	"charset-transfer-tool/pool"
+	"charset-transfer/config"
+	"charset-transfer/log"
+	"charset-transfer/pool"
 	"context"
 	"fmt"
 	"io"

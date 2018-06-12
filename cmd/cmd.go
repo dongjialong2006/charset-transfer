@@ -2,9 +2,9 @@
 package main
 
 import (
-	"charset-transfer-tool/config"
-	"charset-transfer-tool/log"
-	"charset-transfer-tool/transfer"
+	"charset-transfer/config"
+	"charset-transfer/log"
+	"charset-transfer/transfer"
 	"context"
 	"fmt"
 	"os"

@@ -1,4 +1,12 @@
 package: .
+
+ignore:
+- charset-transfer/config
+- charset-transfer/log
+- charset-transfer/transfer
+- charset-transfer/file
+- charset-transfer/pool
+
 import:
 - package: golang.org/x/crypto
   subpackages:
@@ -17,4 +25,3 @@ import:
   version: ~0.5.2
 - package: github.com/namsral/flag
   version: ~1.7.4-pre
-

@@ -1,7 +1,7 @@
 package transfer
 
 import (
-	"charset-transfer-tool/config"
+	"charset-transfer/config"
 	"fmt"
 	"net"
 	"strings"

@@ -1,13 +1,13 @@
 # The import path is where your repository can be found.
 # To import subpackages, always prepend the full import path.
 # If you change this, run `make clean`. Read more: https://git.io/vM7zV
-IMPORT_PATH := charset-transfer-tool
+IMPORT_PATH := charset-transfer
 
 .PHONY: all
-all: charset-transfer-tool
+all: charset-transfer
 
-.PHONY: charset-transfer-tool
-charset-transfer-tool: .GOPATH/.ok
+.PHONY: charset-transfer
+charset-transfer: .GOPATH/.ok
 	go install -tags netgo $(IMPORT_PATH)/cmd
 	mv bin/cmd bin/charset-transfer
 	

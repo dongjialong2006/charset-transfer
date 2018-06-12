@@ -5,7 +5,7 @@ package config
 
 // parsing xml file
 import (
-	"charset-transfer-tool/log"
+	"charset-transfer/log"
 	"context"
 	"encoding/xml"
 	"fmt"

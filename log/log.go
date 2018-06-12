@@ -1,7 +1,7 @@
 package log
 
 import (
-	"charset-transfer-tool/file"
+	"charset-transfer/file"
 	"context"
 	"fmt"
 	"os"
